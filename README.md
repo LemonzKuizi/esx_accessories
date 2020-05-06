@@ -26,7 +26,8 @@ git clone https://github.com/ESX-Org/esx_accessories [esx]/esx_accessories
 - Put it in the `[esx]` directory
 
 ## Installation
-- Import `esx_accessories.sql` in your database
+- Import SQL script. Use [esx_accessories.sql](esx_accessories.sql) if you server locale is english, or search your prefered language file in [localization](localization) folder.
+- If you want run it in other lenguage, set `Config.Locale` in [config.lua](config.lua) (See supported locales in [locales](locales) folder)
 - Add this in your `server.cfg`:
 
 ```
